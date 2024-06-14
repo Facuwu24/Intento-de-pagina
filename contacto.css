@@ -1,0 +1,15 @@
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    input{
+        width: 400px;
+    }
+    button{
+        width: 100px;
+    }
+}
+
+.wrapperForm{
+    
+}
