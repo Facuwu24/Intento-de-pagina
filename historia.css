@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    background: rgba(248, 121, 3, 0.836);
+    padding: 0 0 20px 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logoimg{
+    width: 250px;
+    height: fit-content;
+}
+
+.logotexto{
+    font-size: 2em;
+    color: white;
+    margin: 5px;
+    font-family: 'La Oriental', sans-serif;
+                                                
+}
+
+.nav{
+    display: flex;
+}
+
+.itemnav{
+    list-style: none;
+    padding: 15px;
+    border: 1px solid rgba(255, 98, 7, 0.74);
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.itemnav:hover{
+    color: rgba(255, 98, 7, 0.74);
+    background: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+.carrito{
+    font-size: 2em;
+    color: #fff;
+}
+
+
+
+main{
+    padding: 40px;
+    text-align: center;
+   background-image: url(https://cafemalist.com//wp-content/uploads/2020/01/Origen-e-Historia-del-caf%C3%A9-1-1024x683.jpg);
+    h1{
+        
+        font-family: "Jacquard 24", system-ui;
+        padding-bottom: 30px;
+        color: #ffffff;
+    }
+}
+
+.historia{
+    color: rgb(255, 255, 255);
+    padding: 0 0 50px;
+    font-size: 1.4em;
+    
+}
+
+.diferencias{
+    color: rgb(255, 255, 255);
+    padding: 0 0 50px;
+    font-size: 1.4em;
+}
+
+.beneficios{
+    color: rgb(255, 255, 255);
+    padding: 0 0 50px;
+    font-size: 1.4em;
+}
+
+
+
+
+footer {
+    display: flex;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.788);
+
+}
+
+.logosRedes{
+    margin-left: 75em;
+} .logosRedes a {
+    display: inline-block;
+    font-size: 50px;
+}
